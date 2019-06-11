@@ -1,0 +1,250 @@
+/* global styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.big-container {
+	width: 99%;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+
+
+
+/* main header */
+.main-header {
+	padding-top: 10rem;
+	padding-bottom: calc(10rem -72px);
+	min-height: 650px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .8) 100%), url(src/../assets/img/image.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+
+.navbar-light span.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* change hamburger button border color  */
+button.navbar-toggler.navbar-toggler-right {
+	border-color: transparent;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, .1);
+}
+
+.scrolled {
+	background: rgba(0, 0, 0, .9);
+	box-shadow: 0px 15px 10px -15px #111;
+	color: #F67280 !important;
+	transition-duration: 500ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.navbar .navbar-brand {
+	color: #ffffff !important;
+}
+
+.navbar .navbar-nav ul {
+	margin-top: 20px;
+}
+
+.navbar .navbar-nav li a {
+	font-size: 16px;
+	font-weight: 550;
+	color: #d4d4d4 !important;
+}
+
+.navbar .navbar-nav li a:hover {
+	color: #F67280 !important;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.navbar .navbar-nav li a:active,
+.navbar .navbar-nav li a:focus {
+	color: #F67280 !important;
+
+}
+
+.divider {
+	border-width: 1px;
+	border-color: #F67280 !important;
+}
+
+.btn {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #F67280;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 5px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	padding: 8px 15px !important;
+}
+.btn:hover {
+	background: #F67280;
+	color: #fff;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+
+/* carousel */
+#top-carousel img {
+	height: 500px;
+	width: 100%;
+}
+
+
+/* cards */
+.card1 {
+	background-color: green;
+}
+
+.card2 {
+	background-color: aqua;
+}
+
+.card3 {
+	background-color: purple;
+}
+
+.card4 {
+	background-color: #5E00FF;
+	color: white;
+}
+
+.card4 p {
+	font-size: 21px;
+}
+
+.card5 {
+	background-color: red;
+}
+
+.card5 img {
+	width: 70%;
+}
+
+.card4,
+.card5 {
+	height: 300px;
+}
+
+.card1,
+.card2,
+.card3 {
+	height: 250px;
+}
+
+.card1,
+.card2,
+.card3 h4 {
+	display: inline-block;
+}
+
+/* Adding media quaries for mobile purposes */
+@media (min-width: 992px) {
+	.navbar-light .nav-toggle {
+		color: rgba(0, 0, 0, .5);
+		border-color: rgba(0, 0, 0, .1);
+	}
+}
+
+/* about section */
+
+/* about */
+
+#about {
+	background-color: #fff;
+}
+
+#about h4 {
+	margin-top: 5rem;
+}
+
+.about-content p {
+	margin-top: 16px;
+}
+
+.social-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.social-list li {
+	display: inline-block;
+	margin: 4px;
+}
+
+.social-list li a {
+	display: inline-block;
+	font-size: 16px;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	line-height: 36px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.social-list li a:hover {
+	background-color: black;
+	color: white !important;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/* end about section */
+/* Services */
+
+
+#lorem1 {
+	position: relative;
+	background-color: #F8F9F9;
+}
+
+.s-line {
+	margin: 12px auto 0;
+	width: 55px;
+	height: 1px;
+	background-color: #000;
+}
+
+.service-content p {
+	margin-top: 12px;
+	font-size: 14px;
+}
+
+/* End services */
