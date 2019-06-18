@@ -19,9 +19,10 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
 		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-	<script src="./src/javascript.js"></script>
 	<link rel="stylesheet" href="./src/design.css">
-
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="./src/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="./src/slick/slick-theme.css" />
 	<title>ThinkGlobo</title>
 </head>
 
@@ -80,25 +81,25 @@
 	</header>
 	<br>
 	<!-- <div class="container h-100"> -->
-		<!-- <div class="align-items-center justify-content-center text-center"> -->
-			<!-- <div class="col-lg-10 align-self-end"> -->
-				<div id="top-carousel" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="./src/assets/img/slide.jpeg" alt="First slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="./src/assets/img/thinkglobohome.jpg" alt="Second slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="./src/assets/img/slide.jpeg" alt="Third slide">
-						</div>
-					</div>
-				</div>
-			<!-- </div> -->
-		<!-- </div> -->
+	<!-- <div class="align-items-center justify-content-center text-center"> -->
+	<!-- <div class="col-lg-10 align-self-end"> -->
+	<div id="top-carousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="./src/assets/img/slider/slider1.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./src/assets/img/slider/slider2.jpg" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="./src/assets/img/slider/slider3.jpg" alt="Third slide">
+			</div>
+		</div>
+	</div>
 	<!-- </div> -->
-	<hr class="divider">
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <hr class="divider">
 	<div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-12 align-self-end">
@@ -108,7 +109,8 @@
 		</div>
 	</div>
 	<br>
-	<hr class="divider">
+	<hr class="divider"> -->
+	<br>
 	<div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-10 align-self-end">
@@ -122,16 +124,32 @@
 	<div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-4 align-self-end card1">
-				<br><br><br>
-				<h4>Inovative Image</h4>
+				<br>
+				<img src="./src/assets/img/inovative.jpg" alt="" srcset="">
+				<br>
+				<br>
+				<h5>Innovative</h5>
+				<p>We like to do things differently. By creating deep relationships with our clients we help them design
+					out-of-the box solutions to real-world problems.</p>
+
 			</div>
+			<br>
+
 			<div class="col-lg-4 align-self-end card2">
-				<br><br><br>
-				<h4>Creative Image</h4>
+				<img src="./src/assets/img/creative.jpg" alt="">
+				<br>
+				<br>
+				<h5>Creative</h5>
+				<p>We like to play. We create an environment for ideas to flow freely without judgement. Deliberate
+					creative problem solving will help you stay competitive in today's ever-changing world.</p>
 			</div>
+			<br>
 			<div class="col-lg-4 align-self-end card3">
-				<br><br><br>
-				<h4> Impactful Image</h4>
+				<img src="./src/assets/img/impactful.jpg" alt="" srcset="">
+				<br> <br>
+				<h5>Impactful</h5>
+				<p>We like to make a difference. Only when our solutions are sustainable and truly improve the lives and
+					work of others are we satisfied.</p>
 			</div>
 		</div>
 	</div>
@@ -140,29 +158,23 @@
 	<div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-12 align-self-end">
-				<h5>Innovative</h5>
-				<p>We like to do things differently. By creating deep relationships with our clients we help them design
-					out-of-the box solutions to real-world problems.</p>
+
 			</div>
 		</div>
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-12 align-self-end">
-				<h5>Creative</h5>
-				<p>We like to play. We create an environment for ideas to flow freely without judgement. Deliberate
-					creative problem solving will help you stay competitive in today's ever-changing world.</p>
+
 			</div>
 		</div>
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-12 align-self-end">
-				<h5>Impactful</h5>
-				<p>We like to make a difference. Only when our solutions are sustainable and truly improve the lives and
-					work of others are we satisfied.</p>
+
 			</div>
 		</div>
 	</div>
 
 	<br><br><br>
-	
+
 	<!-- <div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-4 align-self-start">
@@ -258,91 +270,154 @@
 	</section>
 
 	<section id="">
-			<br>
+		<br>
 
- 	<div class="container h-100">
+		<div class="container h-100">
 
 
- 		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-12 align-self-start">
+			<div class="row h-100 align-items-center justify-content-center text-center">
+				<div class="col-lg-12 align-self-start">
+					<br>
+					<h3>Meet the Team</h3>
+					<br>
+				</div>
+				<div class="col-lg-4">
+					<img src="./src/assets/img/person.svg" alt="" srcset="">
+				</div>
+				<div class="col-lg-8">
+					<p>Maryester Gonzalez- The compassionate listener
+						A powerful listener with a passion for solutions that meets a client’s real needs. Over 20 years
+						of
+						experience facilitating and developing impactful learning experiences globally. Having worked in
+						over twenty countries spanning Sub-Saharan Africa, Asia and Latin America, she strives to bring
+						significant cultural empathy to program design. She has an impactful track record of designing
+						and
+						developing innovative programs for diverse learners in multi-functional environments. You can
+						count
+						on Maryester for creative ideas, to keep things organized, to feel heard.
+					</p>
+				</div>
+			</div>
+			<div class="row h-100 align-items-center justify-content-center text-center">
+				<div class="col-lg-4">
+					<img src="./src/assets/img/person.svg" alt="" srcset="">
+				</div>
+				<div class="col-lg-8 ">
+					<p>Isobel Granger- The inspirational leader
+						Isobel has the incredible power to elevate the leader in you with just a few words of wisdom.
+						Her
+						ability to see people for who they really are, her compassion and humility have inspired women
+						and
+						youth all over the world. A sought after key-note speaker and storyteller, Isobel weaves her
+						experiences into metaphors that will shift your perspective and inspire you into action. You can
+						turn to Isobel for mentoring, for inspiration, for strategy, and for collaboration. Her
+						accomplishments are too many to name here, but to read more about her visit her website at
+						www.isobelgranger.com</p>
+				</div>
+			</div>
+			<div class="row h-100 align-items-center justify-content-center text-center">
+				<div class="col-lg-4">
+					<img src="./src/assets/img/person.svg" alt="" srcset="">
+				</div>
+				<div class="col-lg-8 ">
+					<p>Tony Vetter- The strategic thinker with a passion for people
+						Tony has an immense capacity to see any problem or issue from all different angles. He gently
+						turns
+						things inside out and upside for you, reflects it back to you, and lightbulbs just go off. He
+						has a
+						calming presence as soon as he walks into any room and can get away with wearing shorts and
+						sandals
+						in most any setting. You can count on Tony to be a great sounding board, to keep you grounded in
+						practicality and applicability. </p>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- global footprint -->
+		<div class="container h-100">
+			<div class="row h-100 align-items-center justify-content-center text-center">
+
+				<div class="col-lg-12 align-self-start">
+					<h3>Our global footprint</h3>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="map																																				">
+			<img src="./src/assets/img/map.jpg" alt="" srcset="">
+
+		</div>
+
+		<br><br>
+		<!-- clients -->
+		<div class="container h-100">
+			<div class="row h-100 align-items-center justify-content-center text-center">
+				<div class="col-lg-12">
+					<h3>Our clients</h3>
+					<br><br>
+				</div>
+				<hr class="divider" style="width:100%">
+				<div class="col-lg-12 align-self-start client-logos">
+					<div> client1 </div>
+					<div> client2 </div>
+					<div> client3 </div>
+					<div> client4 </div>
+					<div> client5 </div>
+					<div> client6 </div>
+				</div>
+				<hr class="divider" style="width:100%">
+
+			</div>
+		</div>
+		<section class="testimonials">
+			<div class="spacer-50"></div>
+			<div class="container h-100">
+				<div class="row h-100 align-items-center justify-content-center text-center">
+					<h2> What our clients are saying about us </h2>
+				</div>
 				<br>
-				<h3>Meet the Team</h3>
-				<br>
-			</div>
-			<div class="col-lg-4">
-				<img src="./src/assets/img/person.svg" alt="" srcset="">
-			</div>
-			<div class="col-lg-8">
-				<p>Maryester Gonzalez- The compassionate listener
-					A powerful listener with a passion for solutions that meets a client’s real needs. Over 20 years of
-					experience facilitating and developing impactful learning experiences globally. Having worked in
-					over twenty countries spanning Sub-Saharan Africa, Asia and Latin America, she strives to bring
-					significant cultural empathy to program design. She has an impactful track record of designing and
-					developing innovative programs for diverse learners in multi-functional environments. You can count
-					on Maryester for creative ideas, to keep things organized, to feel heard.
-				</p>
-			</div>
-		</div>
-		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-4">
-				<img src="./src/assets/img/person.svg" alt="" srcset="">
-			</div>
-			<div class="col-lg-8 ">
-				<p>Isobel Granger- The inspirational leader
-					Isobel has the incredible power to elevate the leader in you with just a few words of wisdom. Her
-					ability to see people for who they really are, her compassion and humility have inspired women and
-					youth all over the world. A sought after key-note speaker and storyteller, Isobel weaves her
-					experiences into metaphors that will shift your perspective and inspire you into action. You can
-					turn to Isobel for mentoring, for inspiration, for strategy, and for collaboration. Her
-					accomplishments are too many to name here, but to read more about her visit her website at
-					www.isobelgranger.com</p>
-			</div>
-		</div>
-		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-4">
-				<img src="./src/assets/img/person.svg" alt="" srcset="">
-			</div>
-			<div class="col-lg-8 ">
-				<p>Tony Vetter- The strategic thinker with a passion for people
-					Tony has an immense capacity to see any problem or issue from all different angles. He gently turns
-					things inside out and upside for you, reflects it back to you, and lightbulbs just go off. He has a
-					calming presence as soon as he walks into any room and can get away with wearing shorts and sandals
-					in most any setting. You can count on Tony to be a great sounding board, to keep you grounded in
-					practicality and applicability. </p>
+				<div class="row h-100 align-items-center justify-content-center text-center">
+					<div class="col-lg-4 align-self-start">
+						<figure class="snip1192">
+							<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+								Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley.</blockquote>
+							<div class="author">
+								<img src="./src/assets/img/person1.png" alt="" srcset="">
+								<h5> Linus Jobs<span> Interpol</span></h5>
+							</div>
+						</figure>
+					</div>
+					<div class="col-lg-4 align-self-start">
+						<figure class="snip1192 hover">
+							<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+								Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley.</blockquote>
+							<div class="author">
+								<img src="./src/assets/img/person1.png" alt="" srcset="">
+								<h5>Andy Khosa<span> Bluedrop</span></h5>
+							</div>
+						</figure>
+					</div>
+					<div class="col-lg-4 align-self-start">
+						<figure class="snip1192">
+							<blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+								Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley.</blockquote>
+							<div class="author">
+								<img src="./src/assets/img/person1.png" alt="" srcset="">
 
-
- 			</div>
-		</div>
-	</div>
-	<!-- global footprint -->
-	<div class="container h-100">
-
-
- 		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-12 align-self-start">
-				<h2>Map comes here</h2>
+								<h5>Joe Smith <span>Inyathelo</span></h5>
+							</div>
+						</figure>
+					</div>
+				</div>
 			</div>
+			<div class="spacer-50"></div>
+		</section>
 		</div>
-	</div>
-	<br><br>
-	<!-- clients -->
-	<div class="container h-100">
-		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-12 align-self-start">
-				<h2>Client logos sliding horizantally</h2>
-			</div>
-		</div>
-	</div>
-	<div class="container h-100">
-		<div class="row h-100 align-items-center justify-content-center text-center">
-			<div class="col-lg-12 align-self-start">
-				<h2> What our clients are saying about us
-				</h2>
-				<p>Testimonials come here</p>
-			</div>
-		</div>
-	</div>
-	<div class="container h-100">
+		<div class="container h-100">
 			<div class="row h-100 align-items-center justify-content-center text-center">
 				<div class="col-lg-12 align-self-start">
 					<h2>Work with us
@@ -415,7 +490,7 @@
 				</div>
 
 				<!-- testimonial Section -->
-				<div class="col-xs-12 col md-6 skills-section done">
+				<!-- <div class="col-xs-12 col md-6 skills-section done">
 					<h3>Testimonials.</h3>
 
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eius ullam corporis veniam culpa
@@ -426,7 +501,7 @@
 						reprehenderit molestiae quis molestias perspiciatis! Iste atque, magnam ullam totam recusandae
 						nisi. Eos quidem officiis error, a impedit inventore officia, doloremque sint ea earum ex et
 						voluptatem beatae illo porro deserunt blanditiis! Illo, porro a.</p>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -446,6 +521,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
+	<script src="./src/javascript.js"></script>
+	<script type="text/javascript" src="./src/slick/slick.min.js"></script>
+
 </body>
 
 </html>
