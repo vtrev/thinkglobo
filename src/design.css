@@ -145,6 +145,10 @@ button.navbar-toggler.navbar-toggler-right {
 	height: 100px;
 }
 
+#client .row {
+	display: unset !important;
+}
+
 /* Testimonials */
 .testimonials {
 	background-color: #3d204c;
@@ -153,6 +157,7 @@ button.navbar-toggler.navbar-toggler-right {
 .testimonials h2 {
 	color: white;
 }
+
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
