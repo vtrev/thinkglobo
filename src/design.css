@@ -166,7 +166,7 @@ figure.snip1192 {
 	font-family: 'Raleway', Arial, sans-serif;
 	position: relative;
 	overflow: hidden;
-	margin: 10px;
+	margin: 10px auto;
 	min-width: 220px;
 	max-width: 310px;
 	width: 100%;
