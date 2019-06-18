@@ -15,6 +15,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 $(document).ready(function () {
+
+    $('.top-carousel').slick({
+        rtl: true,
+        arrows: true
+
+    });
+
+
     $('.client-logos').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
