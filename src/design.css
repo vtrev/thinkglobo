@@ -166,6 +166,14 @@ button.navbar-toggler.navbar-toggler-right {
 	/* width: */
 }
 
+.small-logo img {
+	padding-top: 8%;
+}
+
+#dial img {
+	padding-top: 10%;
+}
+
 #client .row {
 	display: unset !important;
 }
@@ -362,13 +370,24 @@ figure.snip1192 .author h5 span {
 }
 
 @media only screen and (max-width: 620px) {
+	.slick-slide img {
+		display: inline-block !important;
+		max-width: 210px !important;
+	}
+
 	.map img {
 		height: 250px;
 	}
+
+
 }
 
 @media only screen and (min-width: 1470px) {
 	.map img {
 		height: 680px;
 	}
+}
+
+.slick-slide.slick-current {
+	display: inherit;
 }
