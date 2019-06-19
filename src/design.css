@@ -1,9 +1,16 @@
+/* imports */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:400,800);
+
+
+
+
 /* global styles */
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -185,8 +192,6 @@ button.navbar-toggler.navbar-toggler-right {
 	border-radius: 3%
 }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 figure.snip1192 {
 	font-family: 'Raleway', Arial, sans-serif;
