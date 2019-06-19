@@ -163,7 +163,7 @@ button.navbar-toggler.navbar-toggler-right {
 
 /* Client logos */
 .client-logos div {
-	height: 100px;
+	/* width: */
 }
 
 #client .row {
