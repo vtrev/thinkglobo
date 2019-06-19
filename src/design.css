@@ -10,7 +10,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Gothic A1', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -108,8 +108,26 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 .divider {
+
 	border-width: 1px;
 	border-color: #F67280 !important;
+}
+
+/* Styling team section */
+#team {
+	background-color: #2CCCC3;
+}
+
+.team-divider {
+	/* width: 600px; */
+	border-width: 2px;
+	border-color: green !important;
+}
+/* end styling team section */
+
+/* thinkGlobo map */
+#globalFootPrint {
+	background-color: #F5FBEF;
 }
 
 .btn {
@@ -199,6 +217,11 @@ button.navbar-toggler.navbar-toggler-right {
 	border: 2px solid gray;
 	border-radius: 3%
 }
+
+
+/* Styling clients section */
+
+/* end clients section */
 
 
 figure.snip1192 {

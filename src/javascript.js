@@ -1,5 +1,22 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
+    const navbarLinks = document.querySelectorAll('.navbar a');
+
+
+	navbarLinks.forEach(elem => elem.addEventListener('click', navbarTogglerClick));
+
+	function navbarTogglerClick(event) {
+        smoothScroll(event); //Call 'smoothScroll' function
+    }
+
+    function smoothScroll(event) {
+		event.preventDefault(); ///Avoid default auto from 'window.scroll' builtin function
+		const targetId = event.currentTarget.getAttribute('href');
+		window.scrollTo({
+			top: targetId === '#' ? 0 : document.querySelector(targetId).offsetTop,
+			behavior: 'smooth',
+        });
+    }
 
 
     $(window).scroll(function () {
@@ -11,8 +28,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         pause: false
 
     });
-
 });
+
 
 $(document).ready(function () {
 
