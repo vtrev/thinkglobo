@@ -10,7 +10,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -115,7 +115,8 @@ button.navbar-toggler.navbar-toggler-right {
 
 /* Styling team section */
 #team {
-	background-color: #2CCCC3;
+	background-color: #3d204c;
+	color: #fff;	
 }
 
 .team-divider {
@@ -128,7 +129,8 @@ button.navbar-toggler.navbar-toggler-right {
 
 /* thinkGlobo map */
 #globalFootPrint {
-	background-color: #F5FBEF;
+	background-color: #2BA84A;
+	color: #fff;
 }
 
 .btn {
@@ -181,10 +183,14 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 /* Client logos */
-.client-logos div {
+/* .client-logos div { */
 	/* width: */
-}
+/* } */
 
+/* styling clien section */
+#client{
+	background-color: #fff;
+}
 .small-logo img {
 	padding-top: 8%;
 }
@@ -415,3 +421,10 @@ figure.snip1192 .author h5 span {
 .slick-slide.slick-current {
 	display: inherit;
 }
+
+/* big-container */
+/* #big-container { */
+	/* background-color: #BFC0C0; */
+/* } */
+
+/* scroll button */
