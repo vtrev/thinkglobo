@@ -107,6 +107,22 @@ button.navbar-toggler.navbar-toggler-right {
 
 }
 
+
+
+/* our work sction */
+#work {
+	background-color: #DDDDDD;
+}
+#work2 {
+	background-color: #fff; 
+}
+.card {
+	border: none !important;
+	background-color:transparent !important;
+}
+
+/* our work2 */
+/*  */
 .divider {
 
 	border-width: 1px;
@@ -118,6 +134,8 @@ button.navbar-toggler.navbar-toggler-right {
 	background-color: #3d204c;
 	color: #fff;	
 }
+
+
 
 .team-divider {
 	/* width: 600px; */
@@ -374,7 +392,7 @@ figure.snip1192 .author h5 span {
 
 #lorem1 {
 	position: relative;
-	background-color: #F8F9F9;
+	background-color: #E8E8E8;
 }
 
 .s-line {
@@ -422,9 +440,12 @@ figure.snip1192 .author h5 span {
 	display: inherit;
 }
 
-/* big-container */
-/* #big-container { */
-	/* background-color: #BFC0C0; */
-/* } */
+#big-container { 
+ background-color: #F8F8F8;
+ }
 
-/* scroll button */
+ /* styling lorem2 */
+ #lorem2 {
+	 background-color: #F0F0F0;
+ }
+
