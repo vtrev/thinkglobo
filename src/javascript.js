@@ -78,9 +78,9 @@ $(document).ready(function () {
             // settings: "unslick"
             // instead of a settings object
         ]
-
-
-
         // 'setting-name': setting - value
     });
+
+
+    
 });
