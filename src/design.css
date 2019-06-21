@@ -162,12 +162,14 @@ button.navbar-toggler.navbar-toggler-right {
 #work {
 	background-color: #DDDDDD;
 }
+
 #work2 {
-	background-color: #fff; 
+	background-color: #fff;
 }
+
 .card {
 	border: none !important;
-	background-color:transparent !important;
+	background-color: transparent !important;
 }
 
 /* our work2 */
@@ -181,7 +183,7 @@ button.navbar-toggler.navbar-toggler-right {
 /* Styling team section */
 #team {
 	background-color: #3d204c;
-	color: #fff;	
+	color: #fff;
 }
 
 
@@ -251,13 +253,14 @@ button.navbar-toggler.navbar-toggler-right {
 
 /* Client logos */
 /* .client-logos div { */
-	/* width: */
+/* width: */
 /* } */
 
 /* styling clien section */
-#client{
+#client {
 	background-color: #fff;
 }
+
 .small-logo img {
 	padding-top: 8%;
 }
@@ -489,12 +492,12 @@ figure.snip1192 .author h5 span {
 	display: inherit;
 }
 
-#big-container { 
- background-color: #F8F8F8;
- }
+/* bigger container */
+#big-container {
+	background-color: #F8F8F8;
+}
 
- /* styling lorem2 */
- #lorem2 {
-	 background-color: #F0F0F0;
- }
-
+/* styling lorem2 */
+#lorem2 {
+	background-color: #F0F0F0;
+}
