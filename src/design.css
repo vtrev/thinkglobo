@@ -7,6 +7,32 @@
 
 /* global styles */
 
+/* overlay */
+.overlay {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	/* top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0; */
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+/* 
+.overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+} */
+
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -43,6 +69,29 @@ body {
 	height: 50px;
 }
 
+.spacer-50 {
+	height: 56px;
+}
+
+/* landing carousel */
+.landing-page-text {
+	position: absolute;
+	bottom: 20%;
+	right: 0;
+	left: 0;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+.landing-page-text h2 {
+	text-align: center;
+}
+
+.top-carousel-container {
+	width: 100%;
+	position: relative;
+	/* height: 500px; */
+}
 
 /* main header */
 .main-header {
@@ -68,7 +117,7 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 .navbar {
-	background: rgba(0, 0, 0, .1);
+	background: rgba(0, 0, 0, .9);
 }
 
 .scrolled {
@@ -394,7 +443,7 @@ figure.snip1192 .author h5 span {
 }
 
 @media only screen and (max-width: 620px) {
-	.slick-slide img {
+	#client .slick-slide img {
 		display: inline-block !important;
 		max-width: 210px !important;
 	}

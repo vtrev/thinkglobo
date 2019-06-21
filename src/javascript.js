@@ -3,18 +3,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const navbarLinks = document.querySelectorAll('.navbar a');
 
 
-	navbarLinks.forEach(elem => elem.addEventListener('click', navbarTogglerClick));
+    navbarLinks.forEach(elem => elem.addEventListener('click', navbarTogglerClick));
 
-	function navbarTogglerClick(event) {
+    function navbarTogglerClick(event) {
         smoothScroll(event); //Call 'smoothScroll' function
     }
 
     function smoothScroll(event) {
-		event.preventDefault(); ///Avoid default auto from 'window.scroll' builtin function
-		const targetId = event.currentTarget.getAttribute('href');
-		window.scrollTo({
-			top: targetId === '#' ? 0 : document.querySelector(targetId).offsetTop,
-			behavior: 'smooth',
+        event.preventDefault(); ///Avoid default auto from 'window.scroll' builtin function
+        const targetId = event.currentTarget.getAttribute('href');
+        window.scrollTo({
+            top: targetId === '#' ? 0 : document.querySelector(targetId).offsetTop,
+            behavior: 'smooth',
         });
     }
 
@@ -35,7 +35,12 @@ $(document).ready(function () {
 
     $('.top-carousel').slick({
         rtl: true,
-        arrows: true
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: true,
+        cssEase: 'linear',
+        speed: 750
 
     });
 
