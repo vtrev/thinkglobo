@@ -1,10 +1,28 @@
 /* imports */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
+.spacer-80{
+	height: 80px;
+}
+.spacer-25{
+	height: 25px;
+}
+.mobile-image{
+	display: none;
+}
+.desk-image{
+	display: block;
+}
 
-
+.animatedParent{
+	max-width: 100%;
+	overflow: hidden;
+}
+.start{
+	background-color: red !important;
+}
 /* global styles */
 
 /* overlay */
@@ -469,7 +487,11 @@ figure.snip1192 .author h5 span {
 	}
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 800px) {
+.team-text h5, .team-text p{
+text-align: center !important;
+}
+
 	#client .slick-slide img {
 		display: inline-block !important;
 		max-width: 210px !important;
@@ -478,6 +500,15 @@ figure.snip1192 .author h5 span {
 	.map img {
 		height: 250px;
 	}
+
+	.mobile-image{
+		display: block;
+	}
+	.desk-image{
+		display: none;
+	}
+
+
 
 
 }

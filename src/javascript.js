@@ -1,8 +1,9 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
+ 
+
+    // ScrollReveal().reveal('#contact')
     const navbarLinks = document.querySelectorAll('.navbar a');
-
-
     navbarLinks.forEach(elem => elem.addEventListener('click', navbarTogglerClick));
 
     function navbarTogglerClick(event) {
