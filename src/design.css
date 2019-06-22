@@ -3,6 +3,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
+.navbar .navbar-nav li a {
+    font-size: 17px;
+    font-weight: 350 !important;
+}
+
 .spacer-80{
 	height: 80px;
 }
@@ -491,7 +496,11 @@ figure.snip1192 .author h5 span {
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
+.navbar .navbar-nav li a {
+    font-size: 15px;
+	font-weight: 250 !important; 
+}
 	.landing-page-text p{
 		font-size: 16px;
 	}
@@ -507,7 +516,6 @@ text-align: center !important;
 		display: inline-block !important;
 		max-width: 210px !important;
 	}
-
 	.map img {
 		height: 250px;
 	}
