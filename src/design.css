@@ -104,6 +104,9 @@ body {
 .landing-page-text h2 {
 	text-align: center;
 }
+.landing-page-text p{
+	font-size: 20px;
+}
 
 .top-carousel-container {
 	width: 100%;
@@ -207,7 +210,8 @@ button.navbar-toggler.navbar-toggler-right {
 
 
 .team-divider {
-	/* width: 600px; */
+	display: inline-block;
+	width: 70%;
 	border-width: 2px;
 	border-color: green !important;
 }
@@ -488,6 +492,9 @@ figure.snip1192 .author h5 span {
 }
 
 @media only screen and (max-width: 800px) {
+	.landing-page-text p{
+		font-size: 16px;
+	}
 .team-text h5, .team-text p{
 text-align: center !important;
 
