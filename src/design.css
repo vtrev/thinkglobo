@@ -490,6 +490,10 @@ figure.snip1192 .author h5 span {
 @media only screen and (max-width: 800px) {
 .team-text h5, .team-text p{
 text-align: center !important;
+
+}
+.navbar-nav{
+	align-content: center;
 }
 
 	#client .slick-slide img {
