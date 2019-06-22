@@ -3,6 +3,27 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
+
+#whatsapp:hover{
+	color: green;
+}
+#mail:hover{
+	color: red;
+}
+#phone:hover{
+	color: black;
+}
+#location:hover{
+	color: blue;
+}
+.contacts-list a{
+	display:inline-block;
+	font-size: 17px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: inherit;
+}
+
 .navbar .navbar-nav li a {
     font-size: 17px;
     font-weight: 350 !important;
