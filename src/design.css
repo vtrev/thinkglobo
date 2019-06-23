@@ -3,26 +3,30 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
-.desk-image img{
-	width:380px;
+.desk-image img {
+	width: 380px;
 	height: 300px;
 }
 
 
-#whatsapp:hover{
+#whatsapp:hover {
 	color: green;
 }
-#mail:hover{
+
+#mail:hover {
 	color: red;
 }
-#phone:hover{
+
+#phone:hover {
 	color: lightslategray;
 }
-#location:hover{
+
+#location:hover {
 	color: blue;
 }
-.contacts-list a{
-	display:inline-block;
+
+.contacts-list a {
+	display: inline-block;
 	font-size: 17px;
 	padding-left: 10px;
 	text-decoration: none;
@@ -30,30 +34,39 @@
 }
 
 .navbar .navbar-nav li a {
-    font-size: 17px;
-    font-weight: 350 !important;
+	font-size: 17px;
+	font-weight: 350 !important;
 }
 
-.spacer-80{
+.contacts-list a {
+	vertical-align: 20%;
+}
+
+.spacer-80 {
 	height: 80px;
 }
-.spacer-25{
+
+.spacer-25 {
 	height: 25px;
 }
-.mobile-image{
+
+.mobile-image {
 	display: none;
 }
-.desk-image{
+
+.desk-image {
 	display: block;
 }
 
-.animatedParent{
+.animatedParent {
 	max-width: 100%;
 	overflow: hidden;
 }
-.start{
+
+.start {
 	background-color: red !important;
 }
+
 /* global styles */
 
 /* overlay */
@@ -135,7 +148,8 @@ body {
 .landing-page-text h2 {
 	text-align: center;
 }
-.landing-page-text p{
+
+.landing-page-text p {
 	font-size: 20px;
 }
 
@@ -523,36 +537,43 @@ figure.snip1192 .author h5 span {
 }
 
 @media only screen and (max-width: 720px) {
-.navbar .navbar-nav li a {
-    font-size: 15px;
-	font-weight: 250 !important; 
-}
-	.landing-page-text p{
+	.navbar .navbar-nav li a {
+		font-size: 15px;
+		font-weight: 250 !important;
+	}
+
+	.landing-page-text p {
 		font-size: 16px;
 	}
-.team-text h5, .team-text p{
-text-align: center !important;
 
-}
-.navbar-nav{
-	align-content: center;
-}
+	.team-text h5,
+	.team-text p {
+		text-align: center !important;
+
+	}
+
+	.navbar-nav {
+		align-content: center;
+	}
 
 	#client .slick-slide img {
 		display: inline-block !important;
 		max-width: 210px !important;
 	}
+
 	.map img {
 		height: 250px;
 	}
 
-	.mobile-image{
+	.mobile-image {
 		display: block;
 	}
-	.mobile-image img{
+
+	.mobile-image img {
 		width: 90%;
 	}
-	.desk-image{
+
+	.desk-image {
 		display: none;
 	}
 
