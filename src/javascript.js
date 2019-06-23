@@ -1,7 +1,4 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
- 
-
     const navbarLinks = document.querySelectorAll('.navbar a');
     navbarLinks.forEach(elem => elem.addEventListener('click', navbarTogglerClick));
 

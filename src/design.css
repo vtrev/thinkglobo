@@ -3,6 +3,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
+.desk-image img{
+	width:380px;
+	height: 300px;
+}
+
 
 #whatsapp:hover{
 	color: green;
@@ -11,7 +16,7 @@
 	color: red;
 }
 #phone:hover{
-	color: black;
+	color: lightslategray;
 }
 #location:hover{
 	color: blue;
@@ -544,6 +549,9 @@ text-align: center !important;
 	.mobile-image{
 		display: block;
 	}
+	.mobile-image img{
+		width: 90%;
+	}
 	.desk-image{
 		display: none;
 	}
@@ -572,3 +580,5 @@ text-align: center !important;
 #lorem2 {
 	background-color: #F0F0F0;
 }
+
+/* css */
