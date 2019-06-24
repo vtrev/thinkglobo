@@ -225,9 +225,9 @@ button.navbar-toggler.navbar-toggler-right {
 
 
 /* our work sction */
-#work {
+/* #work {
 	background-color: #DDDDDD;
-}
+} */
 
 #work2 {
 	background-color: #fff;
@@ -258,7 +258,7 @@ button.navbar-toggler.navbar-toggler-right {
 	display: inline-block;
 	width: 70%;
 	border-width: 2px;
-	border-color: green !important;
+	border-color: white !important;
 }
 
 /* end styling team section */
@@ -351,10 +351,10 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 .ino-creative-impact img {
-	max-width: 200px;
-	max-height: 200px;
+	width: auto;
+	/* max-height: 200px; */
 	align-self: center;
-	padding: 15px 0;
+	/* padding: 15px 0; */
 }
 
 .ino-creative-impact .card {
